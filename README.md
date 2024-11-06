@@ -1,6 +1,7 @@
 # Travel Cost Estimator
 
 The Travel Cost Estimator is a web application that calculates estimated travel expenses, including flights, hotels, and food costs, based on user-inputted city data. Additionally, it suggests nearby cities for budget comparison, helping users plan their trips more efficiently by utilizing real-time data from external APIs.
+
 ![Travel](https://github.com/user-attachments/assets/b4b76e88-a807-4f05-a38c-5f27ea0e3857)
 
 ## Features
@@ -21,9 +22,9 @@ The Travel Cost Estimator is a web application that calculates estimated travel 
 ## Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ahmedamd/Travel-Cost-Estimator.git
-   ```
+```bash
+git clone https://github.com/ahmedamd/Travel-Cost-Estimator.git
+```
 2. **Navigate to the project folder:**
 ``` bash
   cd Travel-Cost-Estimator/myapp
@@ -53,4 +54,8 @@ npm start
 - Enter the city: Input the city where you plan to travel.
 - View Estimated Costs: Get a breakdown of estimated expenses for flights, hotels, and food.
 - Explore Nearby Options: Compare costs with suggested nearby cities for a more budget-friendly choice.
+
+## License
+
+This project is licensed under the MIT License.
 
