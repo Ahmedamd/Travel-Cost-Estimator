@@ -5,13 +5,13 @@ const axios = require('axios');
 const Amadeus = require('amadeus');
 const router = express.Router();
 
-// Initialize Amadeus API client (only if used for flights, or remove if not needed)
+// Initialize Amadeus API client
 const amadeus = new Amadeus({
     clientId: process.env.AMADEUS_API_KEY,
     clientSecret: process.env.AMADEUS_API_SECRET
 });
 
-// Mock hotels route to generate random hotel data
+//Routers 
 
 router.get('/hotels', (req, res) => {
     const { city } = req.query;
@@ -30,7 +30,7 @@ router.get('/hotels', (req, res) => {
 
     res.json({ city, hotels });  
 });
-// Keep the `/flights` endpoint for real flight data if needed
+
 router.get('/flights', async (req, res) => {
     const { origin, destination, date } = req.query;
 
